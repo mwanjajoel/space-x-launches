@@ -23,7 +23,9 @@ export default function Home({ launches }) {
           {launches.map(launch => {
             return (
               <a key={launch.id} href={launch.links.video_link} className={styles.card}>
+                <img width={40} height={40} src={launch.links.mission_patch} />
                 <h3>{ launch.mission_name }</h3>
+                <p><strong> Launch Site: </strong> {launch.launch_site.site_name_long}</p>
                 <p><strong> Launch Date: </strong> {new Date(launch.launch_date_local).toLocaleDateString()}</p>
               </a>
             );
