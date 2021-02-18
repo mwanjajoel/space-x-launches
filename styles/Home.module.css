@@ -30,6 +30,7 @@
 }
 
 .footer a {
+  color: #0070f3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,6 +60,12 @@
 
 .description {
   line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.description a {
+  line-height: 1.5;
+  color: #0070f3;
   font-size: 1.5rem;
 }
 
@@ -112,6 +119,11 @@
 
 .logo {
   height: 1em;
+}
+
+.a {
+  color: #0070f3;
+  text-decoration: none;
 }
 
 @media (max-width: 600px) {

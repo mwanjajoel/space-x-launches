@@ -31,6 +31,16 @@ export default function Home({ launches }) {
 
          </div>
       </main>
+      <footer className={styles.footer}>
+        Made in 🇺🇬 by 
+        <a
+          href="https://mwanjajoel.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Mwanja Joel. 
+        </a>
+      </footer>
     </div>
   )
 }
